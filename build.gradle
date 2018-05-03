@@ -8,7 +8,7 @@ repositories {
     mavenCentral()
 }
 apply plugin: 'application'
-mainClassName = 'main.Main'
+mainClassName = 'Main.java'
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.7'
 }
